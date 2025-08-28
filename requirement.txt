@@ -1,6 +1,7 @@
 streamlit
-torch
-torchvision
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
 ftfy
 regex
 tqdm
@@ -8,6 +9,3 @@ requests
 Pillow
 numpy
 git+https://github.com/openai/CLIP.git
-git add requirements.txt
-git commit -m "Add missing dependencies"
-git push origin main
