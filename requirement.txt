@@ -1,8 +1,0 @@
-streamlit
-torch
-torchvision
-torchaudio
-transformers
-pillow
-requests
-numpy
