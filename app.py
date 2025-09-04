@@ -472,7 +472,7 @@ def main():
         with st.expander("Positive Class Definition", expanded=True):
             positive_prompts_text = st.text_area(
                 "Positive Prompts (one per line)",
-                value="professional appearance\nformal attire\nbusiness setting\npositive expression",
+                value="professional appearance\nformal attire\nbusiness setting\npositive expression\nsigns",
                 height=120,
                 help="Define characteristics that should be classified as positive"
             )
@@ -701,3 +701,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
